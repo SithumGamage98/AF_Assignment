@@ -5,6 +5,7 @@ router.get('/', (req, res) => {
   res.send('Hello, this is auth endpoint');
 });
 
+//Route for register a user
 router.get('/register', (req, res) => {
   res.send('Hello, this is auth register endpoint');
 });
