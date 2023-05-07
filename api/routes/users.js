@@ -23,6 +23,7 @@ router.get('/checkadmin/:id', verifyAdmin, (req, res, next) => {
   res.send('hello admin, you are logged in and you can delete all accounts');
 }); */
 
+
 //UPDATE
 router.put('/:id', verifyUser, UpdateUser);
 
@@ -33,6 +34,7 @@ router.delete('/:id', verifyUser, deleteUser);
 router.get('/:id', verifyUser, getUser);
 
 //Get all hotels
+
 router.get('/', verifyAdmin, getUsers);
 
 export default router;
