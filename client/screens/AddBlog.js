@@ -41,6 +41,7 @@ export default function AddHotel() {
         </Row>
         <br></br>
         <Row>
+          {/* Date with calender */}
           <Col xs={7}>
             <h>Date: </h> 
             <DatePicker
