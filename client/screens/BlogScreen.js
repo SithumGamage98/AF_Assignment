@@ -22,7 +22,7 @@ const reducer = (state, action) => {
     default:
      return state;
    }
-   
+
 };
 
 function HotelScreen() {
@@ -52,6 +52,7 @@ function HotelScreen() {
     <div>{error}</div>
   ) : (
     <div>
+      <br></br>
       <br></br>
       <br></br>
       <Row>
