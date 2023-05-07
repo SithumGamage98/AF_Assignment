@@ -23,7 +23,7 @@ const reducer = (state, action) => {
   }
 };
 
-export default function HotelHome() {
+export default function TourPackageHome() {
   const [{ loading, error, hotels }, dispatch] = useReducer(reducer, {
     hotels: [],
     loading: true,
@@ -57,7 +57,7 @@ export default function HotelHome() {
           <Row>
             {hotels.map((hotel) => (
               <Col key={hotel.id} sm={6} md={4} lg={3} className="mb-3">
-                <Hotel hotel={hotel}></Hotel>
+                <Hotel package={hotel}></Hotel>
               </Col>
             ))}
           </Row>
