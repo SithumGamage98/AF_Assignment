@@ -98,7 +98,7 @@ function TourPacakgeScreen() {
             </ListGroup.Item>
             <ListGroup.Item>
               <b>Visitors Per Pack : </b>
-              {hotel.visitorsPerPack}
+              {pack.visitorsPerPack}
             </ListGroup.Item>
             <ListGroup.Item>
               <b>Travel Activities : </b>
