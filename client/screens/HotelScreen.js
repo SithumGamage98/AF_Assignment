@@ -77,11 +77,11 @@ function HotelScreen() {
             </ListGroup.Item>
             <ListGroup.Item>
                <b>Description :</b>
-              <p>{hotel.description}</p>
+               <p>{hotel.description}</p>
             </ListGroup.Item>
             <ListGroup.Item>
               <b>Address :</b>
-              <p>{hotel.address}</p>
+               <p>{hotel.address}</p>
             </ListGroup.Item>
           </ListGroup>
         </Col>
