@@ -129,11 +129,12 @@ function TourPacakgeScreen() {
                       ) : (
                         <Badge bg="danger">Unavailable</Badge>
                       )}
-                      
+
                     </Col>
                   </Row>
                 </ListGroup.Item>
                 <ListGroup.Item>
+                  
                   <Row>
                     <Button>Contact us for Inquiries</Button>
                   </Row>
@@ -151,6 +152,7 @@ function TourPacakgeScreen() {
                     </div>
                   </ListGroup.Item>
                 )}
+
               </ListGroup>
             </Card.Body>
           </Card>
