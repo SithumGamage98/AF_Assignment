@@ -24,44 +24,7 @@ export default function AddHotel() {
           <Col xs={7}>
             <Form.Control placeholder="Blog Title" /> <br></br>
           </Col>
-          {/* <h6>Hotel type :</h6> */}
-          {/* <br></br> */}
-          {/* <Col xs={7}>
-            <Form.Check
-              type="radio"
-              id="Cabins"
-              label="Cabins"
-              value="Cabins"
-            /> */}
-            {/* <Col xs={7}>
-              <Form.Check
-                type="radio"
-                id="Resorts"
-                label="Resorts"
-                value="Resorts" */}
-              {/* />
-            </Col>
-            <Col xs={7}>
-              <Form.Check
-                type="radio"
-                id="Villas"
-                label="Villas"
-                value="Villas"
-              /> */}
-            {/* </Col>
-            <Col xs={7}>
-              <Form.Check
-                type="radio"
-                id="Apartments"
-                label="Apartments"
-                value="Apartments"
-              /> */}
-            {/* </Col>
-            <br></br>
-            <Col xs={7}>
-              <Form.Control placeholder="City" /> <br></br>
-            </Col> */}
-          {/* </Col> */}
+          
         </Row>
         {/* <br></br> */}
         <Row>
