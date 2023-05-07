@@ -56,7 +56,7 @@ export default function TourPackageHome() {
         ) : (
           <Row>
             {hotels.map((hotel) => (
-              <Col key={hotel.id} sm={6} md={4} lg={3} className="mb-3">
+                <Col key={hotel.id} sm={6} md={4} lg={3} className="mb-3">
                 <Hotel package={hotel}></Hotel>
               </Col>
             ))}
