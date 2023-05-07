@@ -76,7 +76,7 @@ function HotelScreen() {
               Pirce : <b>LKR {hotel.price}</b>
             </ListGroup.Item>
             <ListGroup.Item>
-              <b>Description :</b>
+               <b>Description :</b>
               <p>{hotel.description}</p>
             </ListGroup.Item>
             <ListGroup.Item>
