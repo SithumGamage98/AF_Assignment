@@ -75,7 +75,7 @@ function HotelScreen() {
             <ListGroup.Item>Blog Date : {hotel.bdate}</ListGroup.Item>
             <ListGroup.Item>
               Description:
-              <p>{hotel.bdescription}</p>
+               <p>{hotel.bdescription}</p>
             </ListGroup.Item>
           </ListGroup>
         </Col>
