@@ -34,7 +34,7 @@ function HotelScreen() {
     error: '',
   });
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData = async () =>  {
       dispatch({ type: 'FETCH_REQUEST' });
       try {
         const result = await axios.get(`/api/hotels/id/${id}`);
