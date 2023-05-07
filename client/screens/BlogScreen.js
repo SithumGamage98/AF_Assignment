@@ -42,7 +42,7 @@ function HotelScreen() {
         dispatch({ type: "FETCH_FAIL", payload: err.message });
       }
     };
-    fetchData();
+     fetchData();
   }, [id]);
 
   return loading ? (
