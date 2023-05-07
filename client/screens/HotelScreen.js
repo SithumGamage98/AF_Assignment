@@ -80,7 +80,7 @@ function HotelScreen() {
                <p>{hotel.description}</p>
             </ListGroup.Item>
             <ListGroup.Item>
-              <b>Address :</b>
+               <b>Address :</b>
                <p>{hotel.address}</p>
             </ListGroup.Item>
           </ListGroup>
