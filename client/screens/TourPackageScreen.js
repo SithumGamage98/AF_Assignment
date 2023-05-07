@@ -79,7 +79,18 @@ function TourPacakgeScreen() {
               {hotel.chargesPerPack}
             </ListGroup.Item>
             <ListGroup.Item>
-              <b>our Package Type : </b>"{hotel.packageType}"
+              <b>our Package Type : </b>"{pack.packageType}"
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <b>Destination : </b>"{pack.destination}"
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <b>Distance From Colombo : </b>
+              {pack.distanceFromColombo}
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <b> Accomodation : </b>
+              {pack.accomodationPlace}
             </ListGroup.Item>
             <ListGroup.Item>
               <b>No. Of Days : </b>
