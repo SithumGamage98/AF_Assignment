@@ -87,6 +87,9 @@ function HotelScreen() {
                   <Row>
                     {/* <Col>Price:</Col>
                     <Col>${hotel.price}</Col> */}
+                    
+                    {/* share Button */}
+
                     <Button variant="primary">Share instantly</Button>
                   </Row>
                   <br></br>
