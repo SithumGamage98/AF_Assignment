@@ -28,8 +28,8 @@ const reducer = (state, action) => {
 function TourPacakgeScreen() {
   const params = useParams();
   const { id } = params;
-  const [{ loading, error, hotel }, dispatch] = useReducer(reducer, {
-    hotel: [],
+  const [{ loading, error, pack }, dispatch] = useReducer(reducer, {
+    pack: [],
     loading: true,
     error: "",
   });
