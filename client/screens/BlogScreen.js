@@ -89,10 +89,14 @@ function HotelScreen() {
                   <Row>
                     {/* <Col>Price:</Col>
                     <Col>${hotel.price}</Col> */}
+                    {/* Share Button */}
+
                     <Button variant="primary">Share instantly</Button>
                   </Row>
                   <br></br>
                   <Row>
+                    {/* Comment button */}
+                    
                     <Button variant="primary">Add a comment</Button>
                   </Row>
                 </ListGroup.Item>
