@@ -12,7 +12,7 @@
 #### Hotel & Restaurent Management
 ##### 
 • The administrator of the web application should be able to add the information of Hotels, 
-restaurants, cabanas and villas located in different regions of the island. 
+restaurants, cabanas and villas located in different regions of the island. <br>
 • This is also included with the information on complementary meals and traditional cuisine 
 and other value additions offered by those entities for their visitors.
 
