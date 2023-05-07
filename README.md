@@ -52,5 +52,19 @@ those events.
 git clone https://github.com/SithumGamage98/TravelLanka
 #### 02) Navigate to the project directory using the following command:
 cd server
+#### 03) Install the dependencies for the server-side application using the following command:
+npm install
+#### 04) Start the server-side application using the following command:
+npm start
+#### 05) Open another terminal window and navigate to the client-side directory using the following command:
+cd client/travelweb
+#### 06) Start the client-side application using the following command:
+npm start
+
+#### Open your browser and navigate to http://localhost:8000 to view the application.
+
+That's it! You should now have a working MERN application installed and running on your local machine.
+
+
 
 
