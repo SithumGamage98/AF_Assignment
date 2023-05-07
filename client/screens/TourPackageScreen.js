@@ -102,11 +102,11 @@ function TourPacakgeScreen() {
             </ListGroup.Item>
             <ListGroup.Item>
               <b>Travel Activities : </b>
-              {hotel.specialActivities}
+              {pack.specialActivities}
             </ListGroup.Item>
             <ListGroup.Item>
               <b>Special Instructions : </b>
-              {hotel.specialInstructions}
+              {pack.specialInstructions}
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -117,7 +117,7 @@ function TourPacakgeScreen() {
                 <ListGroup.Item>
                   <Row>
                     <Col>Package price:</Col>
-                    <Col>{hotel.chargesPerPack}</Col>
+                    <Col>{pack.chargesPerPack}</Col>
                   </Row>
                 </ListGroup.Item>
                 <ListGroup.Item>
