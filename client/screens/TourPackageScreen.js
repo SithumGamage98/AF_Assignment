@@ -54,6 +54,8 @@ function TourPacakgeScreen() {
     <div>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
       <Row>
         <Col md={6}>
           <img className="img-large" src={pack.image} alt={pack.name}></img>
