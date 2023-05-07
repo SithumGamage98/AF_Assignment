@@ -16,4 +16,14 @@ restaurants, cabanas and villas located in different regions of the island. <br>
 • This is also included with the information on complementary meals and traditional cuisine 
 and other value additions offered by those entities for their visitors.
 
+#### Tour Package Management
+####
+• The administrator of the web application should be able to add the information on Tour 
+and Site seeing packages that have been designed according to the iconic locations 
+dispersed all around the country. <br>
+• These information on packages are managed and updated with the activities that could 
+be experienced by the travelers who visit those areas (Ex. snorkeling, diving, cycling, 
+whale watching, experiencing the village life style), the places of ancient archeological 
+values and the unique locations that have been identified as exclusive attractions of 
+travelers and the places where they could rent out bikes and motor vehicles.
 
