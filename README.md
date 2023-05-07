@@ -48,7 +48,9 @@ additions and time slot arrangements, such that making the travelers more aware 
 those events. 
 
 ### Project installation steps
-#### Clone the repository to your local machine using the following command:
-git clone <repository-url>
+#### 01) Clone the repository to your local machine using the following command:
+git clone https://github.com/SithumGamage98/TravelLanka
+#### 02) Navigate to the project directory using the following command:
+cd server
 
 
