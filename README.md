@@ -27,3 +27,23 @@ whale watching, experiencing the village life style), the places of ancient arch
 values and the unique locations that have been identified as exclusive attractions of 
 travelers and the places where they could rent out bikes and motor vehicles.
 
+
+#### Blogging Management
+####
+• The travelers who have become members of the web application should be able to share 
+their most interesting experiences on recent travels with the other interested parties who 
+are visiting the site by publishing posts. <br>
+• The travelers could manage their post collections by updating them with most recent 
+contents about their favorite places, creating the enthusiasm on others who are reading 
+those articles to visit those places. 
+
+#### Event Management
+####
+• The administrator of the web application could publish information on most exclusive 
+traditional cultural events (perahera events, traditional festive events, authentic fight 
+performances, thowil events) happening in different areas of the country along with their 
+respective components. <br>
+• The information on those cultural events could be updated with their latest event 
+additions and time slot arrangements, such that making the travelers more aware about 
+those events. 
+
