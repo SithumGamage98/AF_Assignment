@@ -56,20 +56,20 @@ function TourPacakgeScreen() {
       <br></br>
       <Row>
         <Col md={6}>
-          <img className="img-large" src={hotel.image} alt={hotel.name}></img>
+          <img className="img-large" src={pack.image} alt={pack.name}></img>
         </Col>
         <Col md={3}>
           <ListGroup variant="flush">
             <ListGroup.Item>
               <Helmet>
-                <title>{hotel.packageName}</title>
+                <title>{pack.packageName}</title>
               </Helmet>
               <h1>{hotel.packageName}</h1>
             </ListGroup.Item>
             <ListGroup.Item>
               <Rating
-                rating={hotel.rating}
-                reviewCount={hotel.reviewCount}
+                rating={pack.rating}
+                reviewCount={pack.reviewCount}
               ></Rating>
             </ListGroup.Item>
             <ListGroup.Item>
