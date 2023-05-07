@@ -66,7 +66,7 @@ function TourPacakgeScreen() {
               <Helmet>
                 <title>{pack.packageName}</title>
               </Helmet>
-              <h1>{hotel.packageName}</h1>
+              <h1>{pack.packageName}</h1>
             </ListGroup.Item>
             <ListGroup.Item>
               <Rating
