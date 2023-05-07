@@ -143,7 +143,7 @@ function TourPacakgeScreen() {
                   </Row>
                 </ListGroup.Item>
 
-                {hotel.availableRooms > 0 && (
+                {pack.availableRooms > 0 && (
                   <ListGroup.Item>
                     <div className="d-grid">
                       <Button variant="primary">Book Now</Button>
