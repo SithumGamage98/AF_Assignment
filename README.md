@@ -49,17 +49,17 @@ those events.
 
 ### Project installation steps
 #### 01) Clone the repository to your local machine using the following command:
-git clone https://github.com/SithumGamage98/TravelLanka
+• git clone https://github.com/SithumGamage98/TravelLanka
 #### 02) Navigate to the project directory using the following command:
-cd server
+• cd server
 #### 03) Install the dependencies for the server-side application using the following command:
-npm install
+• npm install
 #### 04) Start the server-side application using the following command:
-npm start
+• npm start
 #### 05) Open another terminal window and navigate to the client-side directory using the following command:
 cd client/travelweb
 #### 06) Start the client-side application using the following command:
-npm start
+• npm start
 
 #### Open your browser and navigate to http://localhost:8000 to view the application.
 
