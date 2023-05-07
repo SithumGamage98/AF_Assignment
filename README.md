@@ -57,7 +57,7 @@ those events.
 #### 04) Start the server-side application using the following command:
 • npm start
 #### 05) Open another terminal window and navigate to the client-side directory using the following command:
-cd client/travelweb
+• cd client/travelweb
 #### 06) Start the client-side application using the following command:
 • npm start
 
