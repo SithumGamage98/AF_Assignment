@@ -47,3 +47,8 @@ respective components. <br>
 additions and time slot arrangements, such that making the travelers more aware about 
 those events. 
 
+### Project installation steps
+#### Clone the repository to your local machine using the following command:
+git clone <repository-url>
+
+
