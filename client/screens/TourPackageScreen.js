@@ -82,17 +82,6 @@ function TourPacakgeScreen() {
               <b>our Package Type : </b>"{hotel.packageType}"
             </ListGroup.Item>
             <ListGroup.Item>
-              <b>Destination : </b>"{hotel.destination}"
-            </ListGroup.Item>
-            <ListGroup.Item>
-              <b>Distance From Colombo : </b>
-              {pack.distanceFromColombo}
-            </ListGroup.Item>
-            <ListGroup.Item>
-              <b> Accomodation : </b>
-              {pack.accomodationPlace}
-            </ListGroup.Item>
-            <ListGroup.Item>
               <b>No. Of Days : </b>
               {hotel.noOfDays}
             </ListGroup.Item>
