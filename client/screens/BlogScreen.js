@@ -20,8 +20,8 @@ const reducer = (state, action) => {
     case "FETCH_FAIL":
       return { ...state, loading: false, error: action.payload };
     default:
-      return state;
-  }
+     return state;
+   }
 };
 
 function HotelScreen() {
