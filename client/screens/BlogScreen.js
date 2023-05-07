@@ -22,6 +22,7 @@ const reducer = (state, action) => {
     default:
      return state;
    }
+   
 };
 
 function HotelScreen() {

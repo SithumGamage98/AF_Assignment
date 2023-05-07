@@ -92,13 +92,14 @@ function HotelScreen() {
 
                     <Button variant="primary">Share instantly</Button>
                   </Row>
+
                   <br></br>
                   <Row>
 
                     {/* Share Button */}
 
                     <Button variant="primary">Add a comment</Button>
-                    
+
                   </Row>
                 </ListGroup.Item>
                 {/* <ListGroup.Item>
@@ -126,6 +127,7 @@ function HotelScreen() {
           </Card>
         </Col>
       </Row>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
