@@ -124,11 +124,12 @@ function TourPacakgeScreen() {
                   <Row>
                     <Col>Status:</Col>
                     <Col>
-                      {hotel.availablePackages > 0 ? (
+                      {pack.availablePackages > 0 ? (
                         <Badge bg="success">Available</Badge>
                       ) : (
                         <Badge bg="danger">Unavailable</Badge>
                       )}
+                      
                     </Col>
                   </Row>
                 </ListGroup.Item>
