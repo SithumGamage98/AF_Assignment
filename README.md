@@ -1,4 +1,4 @@
-# TravelLanka - Culture & Tourism based web application
+# TravelLanka - Cultural & Tourism based web application
 <hr>
 
 ### Main Contributors
