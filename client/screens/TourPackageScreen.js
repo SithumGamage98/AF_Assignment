@@ -86,11 +86,11 @@ function TourPacakgeScreen() {
             </ListGroup.Item>
             <ListGroup.Item>
               <b>Distance From Colombo : </b>
-              {hotel.distanceFromColombo}
+              {pack.distanceFromColombo}
             </ListGroup.Item>
             <ListGroup.Item>
               <b> Accomodation : </b>
-              {hotel.accomodationPlace}
+              {pack.accomodationPlace}
             </ListGroup.Item>
             <ListGroup.Item>
               <b>No. Of Days : </b>
