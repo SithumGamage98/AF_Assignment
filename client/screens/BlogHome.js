@@ -94,6 +94,9 @@ function HotelScreen() {
                   </Row>
                   <br></br>
                   <Row>
+
+                    {/* Share Button */}
+
                     <Button variant="primary">Add a comment</Button>
                   </Row>
                 </ListGroup.Item>
