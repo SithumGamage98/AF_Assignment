@@ -1,17 +1,17 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
-const Hotels = require("../../models/HotelManagement/hotel.model");
+const Hotels = require('../../models/HotelManagement/hotel.model');
 const multer = require('multer');
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 
 const storage = multer.diskStorage({
-  destination: function(req, file, cb) {
+  destination: function (req, file, cb) {
     cb(null, '../frontend/src/components/HotelManagement/HotelImages');
   },
-  filename: function(req, file, cb) {   
+  filename: function (req, file, cb) {
     cb(null, uuidv4() + '-' + Date.now() + path.extname(file.originalname));
-  }
+  },
 });
 
 const fileFilter = (req, file, cb) => {
@@ -21,11 +21,11 @@ const fileFilter = (req, file, cb) => {
   } else {
     cb(null, false);
   }
-}
+};
 
 const upload = multer({ storage, fileFilter }).array('photos', 10);
 
-router.post("/add/new", async (req, res) => {
+router.post('/add/new', async (req, res) => {
   upload(req, res, async (err) => {
     if (err instanceof multer.MulterError) {
       return res.status(422).json({ error: err.message });
@@ -33,10 +33,34 @@ router.post("/add/new", async (req, res) => {
       return res.status(500).json({ error: err.message });
     }
 
-    const { name, type, city, address, distance, title, description, rooms, cheapestprice, featured, rating } = req.body;
+    const {
+      name,
+      type,
+      city,
+      address,
+      distance,
+      title,
+      description,
+      rooms,
+      cheapestprice,
+      featured,
+      rating,
+    } = req.body;
 
-    if (!name || !type || !city || !address || !distance || !title || !description || !rooms || !cheapestprice || !featured || !rating) {
-      return res.status(422).json("Please enter all data");
+    if (
+      !name ||
+      !type ||
+      !city ||
+      !address ||
+      !distance ||
+      !title ||
+      !description ||
+      !rooms ||
+      !cheapestprice ||
+      !featured ||
+      !rating
+    ) {
+      return res.status(422).json('Please enter all data');
     }
 
     try {
@@ -54,32 +78,31 @@ router.post("/add/new", async (req, res) => {
         cheapestprice,
         featured,
         photos,
-        rating
+        rating,
       });
 
       await addhotel.save();
       res.status(201).json(addhotel);
     } catch (error) {
-      console.log("Error", error);
+      console.log('Error', error);
       res.status(422).json(error);
     }
   });
 });
 
-  router.get("/hotel/view/:id", async (req, res) => {
-    try {
-      const { id } = req.params;
-  
-      const adindividual = await Hotels
-        .findById({ _id: id });
-      res.status(201).json(adindividual);
-    } catch (error) {
-      res.status(422).json(error);
-    }
-  });
+router.get('/hotel/view/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
 
-  // Get all hotel hotel
-router.get("/hotel", async (req, res) => {
+    const adindividual = await Hotels.findById({ _id: id });
+    res.status(201).json(adindividual);
+  } catch (error) {
+    res.status(422).json(error);
+  }
+});
+
+// Get all hotel hotel
+router.get('/hotel', async (req, res) => {
   try {
     const hotel = await Hotels.find();
     res.json(hotel);
@@ -88,7 +111,7 @@ router.get("/hotel", async (req, res) => {
   }
 });
 
-router.delete("/hotel/delete/:id", async (req, res) => {
+router.delete('/hotel/delete/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const deletead = await Hotels.findByIdAndDelete(id);
@@ -98,12 +121,35 @@ router.delete("/hotel/delete/:id", async (req, res) => {
   }
 });
 
-router.put("/hotel/update/:id", async (req, res) => {
-    const { name, type, city, address, distance, title, rooms, description, cheapestprice, featured, rating } = req.body;
+//Update hotel
+router.put('/hotel/update/:id', async (req, res) => {
+  const {
+    name,
+    type,
+    city,
+    address,
+    distance,
+    title,
+    rooms,
+    description,
+    cheapestprice,
+    featured,
+    rating,
+  } = req.body;
   if (
-    !name || !type || !city || !address || !distance || !title || !rooms || !description || !cheapestprice || !featured || !rating
+    !name ||
+    !type ||
+    !city ||
+    !address ||
+    !distance ||
+    !title ||
+    !rooms ||
+    !description ||
+    !cheapestprice ||
+    !featured ||
+    !rating
   ) {
-    res.status(422).json("Please enter all data");
+    res.status(422).json('Please enter all data');
     return 0;
   }
   try {
@@ -119,16 +165,16 @@ router.put("/hotel/update/:id", async (req, res) => {
   }
 });
 
-router.get("/hotel/count", async (req, res) => {
+router.get('/hotel/count', async (req, res) => {
   try {
     total = await Hotels.find().countDocuments();
     /* Sending the users object to the client. */
     res.json({ total: total });
     //console.log(total);
   } catch (err) {
-    console.error(err); 
+    console.error(err);
     res.status(500).send();
   }
 });
 
-  module.exports = router;
+module.exports = router;
